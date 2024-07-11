@@ -41,7 +41,7 @@ export const LoginSignup = () => {
         <div
           className={action === "Login" ? "submit gray" : "submit"}
           onClick={() => {
-            setAction("Sign Up");
+            setAction("Sign Up")
           }}
         >
           Sign Up
@@ -49,7 +49,7 @@ export const LoginSignup = () => {
         <div
           className={action === "Sign Up" ? "submit gray" : "submit"}
           onClick={() => {
-            setAction("Login");
+            setAction("Login")
           }}
         >
           Login
